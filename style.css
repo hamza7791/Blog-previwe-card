@@ -76,3 +76,14 @@ img.article{
     margin-top: 12px;
     font-weight: 600;
 }
+
+
+@media (max-width: 375px) {
+    .card{
+        width: 343px;
+    }
+
+    .card h1 {
+        white-space: normal;
+    }
+}
